@@ -1,0 +1,37 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    width: 72px;
+    background-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(246, 244, 244);
+    z-index: 200;
+}
+.side-bar-icon{
+    display: flex;
+    height: 76px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.2s background-color 0.15s;
+}
+.side-bar-icon:hover{
+    background-color: rgb(234, 234, 234);
+}
+.side-bar-icon:active{
+    opacity: 0.5;
+}
+.icon-image{
+    width: 24px;
+}
+.under-text{
+    color: #212529;
+    padding-top: 1px;
+    font-weight: 400;
+    font-family: Arial;
+    font-size: 10px;
+}
